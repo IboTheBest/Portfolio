@@ -6,7 +6,7 @@ elMessageForm.addEventListener("submit", function(e){
     e.preventDefault()
     let message = `<b>SMS FROM YOUR PORTFOLIO</b> \n`
     message += `<b>Username: ${e.target.name.value}</b> \n`
-    message += `<b>Email: ${e.target.number.value}</b> \n`
+    message += `<b>Email: +998${e.target.number.value}</b> \n`
     message += `<b>Subject ${e.target.subject.value}</b> \n`
     message += `<b>message: ${e.target.message.value}</b> \n`
     e.target = ""
